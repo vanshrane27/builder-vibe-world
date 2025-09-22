@@ -13,6 +13,13 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'monte-carlo': ['MonteCarlo', 'cursive'],
+        'outfit': ['Outfit', 'sans-serif'],
+        'playfair': ['Playfair Display', 'serif'],
+        'gloock': ['Gloock', 'serif'],
+        'montserrat': ['Montserrat', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +64,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Matrimonial theme colors
+        'matrimony': {
+          DEFAULT: 'hsl(var(--matrimony-default))',
+          light: 'hsl(var(--matrimony-light))',
+          lighter: 'hsl(var(--matrimony-lighter))',
+        },
+        'primary-white': 'hsl(var(--primary-white))',
+        'primary-light': 'hsl(var(--primary-light))',
+        'primary-lighter': 'hsl(var(--primary-lighter))',
+        'primary-dark': 'hsl(var(--primary-dark))',
+        'info-lighter': 'hsl(var(--info-lighter))',
+        'success-lighter': 'hsl(var(--success-lighter))',
+        'success-default': 'hsl(var(--success-default))',
+        'danger-lighter': 'hsl(var(--danger-lighter))',
+        'danger-light': 'hsl(var(--danger-light))',
       },
       borderRadius: {
         lg: "var(--radius)",
