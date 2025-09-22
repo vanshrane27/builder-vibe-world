@@ -1,5 +1,10 @@
 /** @import must precede all other statements */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -43,20 +48,27 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Matrimonial theme colors */
+    --primary-white: 0 0% 98%;
+    --primary-light: 0 0% 93%;
+    --primary-lighter: 0 0% 95%;
+    --matrimony-default: 5 88% 45%;
+    --matrimony-light: 5 100% 75%;
+    --matrimony-lighter: 5 100% 89%;
+    --primary-dark: 0 0% 20%;
+    --info-lighter: 204 100% 89%;
+    --success-lighter: 120 100% 89%;
+    --success-default: 120 100% 47%;
+    --danger-lighter: 5 100% 89%;
+    --danger-light: 5 100% 74%;
   }
 
   .dark {
